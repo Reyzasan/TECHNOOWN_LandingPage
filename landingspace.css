@@ -242,8 +242,8 @@ ul li i {
   align-items: center;
 }
 
-.title h3 {
-  padding: 5px 15px;
+.title i {
+  padding: 15px 15px;
   background-color: var(--add);
   color: var(--primary);
   border-radius: 50px;
