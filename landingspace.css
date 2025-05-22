@@ -463,3 +463,130 @@ footer {
 .email i {
   font-size: 20px;
 }
+
+@media (max-width: 1000px) {
+    .wrapper,
+    .home,
+    .about,
+    .promotion,
+    .benerfit {
+      width: 90%;
+      flex-direction: column;
+      margin: auto;
+    }
+  
+    .home img,
+    .promotion img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .description {
+      margin: 20px 0;
+    }
+  
+    .button {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .button .shop,
+    .button .explore,
+    .button .contact {
+      margin-bottom: 10px;
+    }
+  
+    .konten3 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .Implementasi {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .chatbox,
+    .voice,
+    .stock,
+    .note {
+      width: 90%;
+    }
+  
+    .konten4 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .company,
+    .service,
+    .product,
+    .contactcompany {
+      width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
+  /* RESPONSIVE FOR MOBILE */
+  @media (max-width: 576px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo {
+      float: none;
+      margin-bottom: 10px;
+    }
+  
+    .link {
+      flex-direction: column;
+      float: none;
+    }
+  
+    ul {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+  
+    ul li {
+      margin: 10px 0;
+    }
+  
+    .home,
+    .promotion {
+      margin: 20px;
+    }
+  
+    .description h1 {
+      font-size: 24px;
+      line-height: 36px;
+      width: 100%;
+    }
+  
+    .description p {
+      font-size: 16px;
+    }
+  
+    .button {
+      align-items: center;
+    }
+  
+    .benefitai,
+    .aboutai,
+    .promotionai {
+      padding: 20px 10px;
+    }
+  
+    .benerfit h1 {
+      font-size: 24px;
+    }
+  }
+  
